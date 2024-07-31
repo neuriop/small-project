@@ -1,6 +1,6 @@
 package duck;
 
-public class Duck {
+public abstract class Duck {
     protected String color = "\u001B[0m";
 
     public void duck() {
@@ -9,12 +9,6 @@ public class Duck {
                 "\\___)\n");
     }
 
-    public void quack() {
-        System.out.print(color + "        ________\n" +
-                "   _   |*quack*/\n" +
-                "__(.)> |/\n" +
-                "\\___)\n");
-    }
 
     public void swim() {
         System.out.print(color + "            _\n" +
@@ -22,9 +16,4 @@ public class Duck {
                 "_ _ _ _ _\\___)\n");
     }
 
-    public void fly() {
-        System.out.print(color + "__  _\n" +
-                "\\_\\(.)>\n" +
-                " \\___)\n");
-    }
 }

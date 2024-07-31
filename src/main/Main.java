@@ -1,4 +1,6 @@
-package duck;
+package main;
+
+import duck.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,11 +23,5 @@ public class Main {
         rubberDuck.duck();
         rubberDuck.quack();
         rubberDuck.swim();
-        rubberDuck.fly();
-        Duck duck = new Duck();
-        duck.duck();
-        duck.quack();
-        duck.swim();
-        duck.fly();
     }
 }
