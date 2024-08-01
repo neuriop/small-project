@@ -16,5 +16,23 @@ public class Main {
         redheadDuck.swim();
         redheadDuck.flight();
         redheadDuck.quack();
+
+        RubberDuck rubberDuck = new RubberDuck();
+        rubberDuck.duck();
+        rubberDuck.swim();
+        rubberDuck.flight();
+        rubberDuck.quack();
+
+        DroneDuck droneDuck = new DroneDuck();
+        droneDuck.duck();
+        droneDuck.swim();
+        droneDuck.flight();
+        droneDuck.quack();
+
+        DecoyDuck decoyDuck = new DecoyDuck();
+        decoyDuck.duck();
+        decoyDuck.swim();
+        decoyDuck.flight();
+        decoyDuck.quack();
     }
 }

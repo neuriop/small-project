@@ -5,14 +5,14 @@ import duck.duckbehaviour.quack.QuackBehaviour;
 import utils.Colors;
 
 public abstract class Duck {
-    protected String colorHead; // колір голови
-    protected String colorBody; // колір тіла
+    protected String colorHead;
+    protected String colorBody;
     protected final String colorWater = Colors.colorBlue;
     protected FlightBehaviour flightBehaviour;
     protected QuackBehaviour quackBehaviour;
 
     public void duck() {
-        System.out.println(colorHead + "   _\n" +       // Приклад використання кольору качки для унікального відрображення єдиним кодом
+        System.out.println(colorHead + "   _\n" +
                 colorBody + "__" + colorHead + "(.)>\n" +
                 colorBody + "\\___)\n");
     }
@@ -23,11 +23,11 @@ public abstract class Duck {
                 colorWater + "_ _ _ _ _" + colorBody + "\\___)\n");
     }
 
-    public void flight(){
+    public void flight() {
         flightBehaviour.flight();
     }
 
-    public void quack(){
+    public void quack() {
         quackBehaviour.quack();
     }
 
