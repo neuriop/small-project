@@ -9,7 +9,7 @@ public class MallardDuck extends Duck {
 
     public MallardDuck(){
         this.colorHead = Colors.colorCyan;
-        this.colorBody = Colors.colorWhite; // Присвоєння кольорів цієї качки
+        this.colorBody = Colors.colorWhite;
         flightBehaviour = new Flight(colorHead, colorBody);
         quackBehaviour = new Quack(colorHead, colorBody);
     }
