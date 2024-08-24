@@ -10,4 +10,13 @@ public class Colors {
     public static final String colorPurple = "\u001B[35m";
     public static final String colorCyan = "\u001B[36m";
     public static final String colorWhite = "\u001B[37m";
+
+    public static final String backgroundBlack = "\u001B[40m";
+    public static final String backgroundRed = "\u001B[41m";
+    public static final String backgroundGreen = "\u001B[42m";
+    public static final String backgroundYellow = "\u001B[43m";
+    public static final String backgroundBlue = "\u001B[44m";
+    public static final String backgroundPurple = "\u001B[45m";
+    public static final String backgroundCyan = "\u001B[46m";
+    public static final String backgroundWhite = "\u001B[47m";
 }

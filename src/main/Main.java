@@ -1,15 +1,15 @@
 package main;
 
-import pizzeria.CheesePizzaStore;
-import pizzeria.Pizza;
+import caller.IsBlacklisted;
+import caller.NumberChecker;
 
 public class Main {
     public static void main(String[] args){
 
-        CheesePizzaStore pizzaStore1 = new CheesePizzaStore();
-        Pizza pizza = pizzaStore1.orderPizza("cheese");
-        System.out.println(pizza.getCost());
+        NumberChecker numberChecker = new NumberChecker();
+        IsBlacklisted.addNumber("567999");
 
+        numberChecker.call("567999");
 
     }
 }
