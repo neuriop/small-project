@@ -1,15 +1,18 @@
 package main;
 
-import caller.IsBlacklisted;
-import caller.NumberChecker;
+import carcredit.CarCredit;
 
 public class Main {
     public static void main(String[] args){
 
-        NumberChecker numberChecker = new NumberChecker();
-        IsBlacklisted.addNumber("567999");
+        CarCredit carCredit = new CarCredit();
+        carCredit.tableOut();
+        carCredit.carPay(1000000);
 
-        numberChecker.call("567999");
+//        double a = 10.0 / 3.0;
+//        a = carCredit.round(a);
+//        System.out.println(a);
+
 
     }
 }
